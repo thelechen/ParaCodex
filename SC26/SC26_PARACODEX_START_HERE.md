@@ -5,15 +5,14 @@
 ## Setup
 
 1. Install OpenCode and a C++17 compiler with OpenMP support (on Linux: GCC/g++; on macOS use Homebrew GCC, not Apple's default Clang if you want real OpenMP).
-2. Clone the upstream source repository (only if you want to examine the full ParaCodex implementation; this addon also runs independently):
+2. Clone the tutorial repository and enter its `SC26` directory:
 
    ```bash
-   git clone https://github.com/Scientific-Computing-Lab/ParaCodex.git
-   cd ParaCodex
+   git clone https://github.com/thelechen/ParaCodex.git
+   cd ParaCodex/SC26
    ```
 
-3. Unzip `SC26_ParaCodex_OpenCode_Addon.zip` **in the repository root**. It adds `.opencode/commands/`, `.opencode/agents/`, and `tutorial_demo/paracodex_opencode/` without modifying upstream pipeline files. Alternatively unzip into an empty directory and run `opencode` there.
-4. Optionally check the tool before opening OpenCode:
+3. Optionally check the tool before opening OpenCode:
 
    ```bash
    python3 tutorial_demo/paracodex_opencode/tools/gate.py init --mode repair
@@ -21,7 +20,18 @@
    # Expected for repair seed: compilation succeeds, numerical equivalence fails.
    ```
 
-5. Start `opencode` from the same directory and select a working free/default model in the TUI (the addon deliberately specifies **no model**).
+4. Start `opencode` from the `SC26` directory and select a working free/default model in the TUI (the addon deliberately specifies **no model**).
+
+## Start a fresh run
+
+Exit OpenCode, then run this from the `SC26` directory:
+
+```bash
+make clean
+opencode
+```
+
+`make clean` removes only generated files under `tutorial_demo/paracodex_opencode/runs/latest/`, generated agent files under `work/`, and local Python caches. It preserves the golden reference, bug fixture, gate tool, `.opencode/` configuration, QA evidence, documentation, and Makefile.
 
 ## One-command exercises
 
