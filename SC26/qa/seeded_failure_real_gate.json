@@ -1,0 +1,290 @@
+{
+  "attempt": 1,
+  "reference_compile": {
+    "command": [
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/data/SC26_ParaCodex_OpenCode_Addon/tutorial_demo/paracodex_opencode/reference.cpp",
+      "-o",
+      "/mnt/data/SC26_ParaCodex_OpenCode_Addon/tutorial_demo/paracodex_opencode/runs/latest/build/reference"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "timed_out": false,
+    "openmp_enabled": false
+  },
+  "candidate_compile": {
+    "command": [
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "-fopenmp",
+      "/mnt/data/SC26_ParaCodex_OpenCode_Addon/tutorial_demo/paracodex_opencode/work/candidate.cpp",
+      "-o",
+      "/mnt/data/SC26_ParaCodex_OpenCode_Addon/tutorial_demo/paracodex_opencode/runs/latest/build/candidate"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "timed_out": false,
+    "openmp_enabled": true
+  },
+  "checks": [
+    {
+      "dims": [
+        5,
+        7,
+        0
+      ],
+      "threads": 1,
+      "reference_exit": 0,
+      "candidate_exit": 0,
+      "candidate_stderr": "",
+      "pass": true,
+      "message": "All grid elements numerically equivalent"
+    },
+    {
+      "dims": [
+        5,
+        7,
+        0
+      ],
+      "threads": 2,
+      "reference_exit": 0,
+      "candidate_exit": 0,
+      "candidate_stderr": "",
+      "pass": true,
+      "message": "All grid elements numerically equivalent"
+    },
+    {
+      "dims": [
+        5,
+        7,
+        0
+      ],
+      "threads": 4,
+      "reference_exit": 0,
+      "candidate_exit": 0,
+      "candidate_stderr": "",
+      "pass": true,
+      "message": "All grid elements numerically equivalent"
+    },
+    {
+      "dims": [
+        5,
+        7,
+        1
+      ],
+      "threads": 1,
+      "reference_exit": 0,
+      "candidate_exit": 0,
+      "candidate_stderr": "",
+      "pass": false,
+      "message": "Mismatch at (x=1,y=1), expected=0.495845360825, got=0.583974226804, abs_error=0.0881",
+      "mismatch_count": 15
+    },
+    {
+      "dims": [
+        5,
+        7,
+        1
+      ],
+      "threads": 2,
+      "reference_exit": 0,
+      "candidate_exit": 0,
+      "candidate_stderr": "",
+      "pass": false,
+      "message": "Mismatch at (x=1,y=1), expected=0.495845360825, got=0.583974226804, abs_error=0.0881",
+      "mismatch_count": 15
+    },
+    {
+      "dims": [
+        5,
+        7,
+        1
+      ],
+      "threads": 4,
+      "reference_exit": 0,
+      "candidate_exit": 0,
+      "candidate_stderr": "",
+      "pass": false,
+      "message": "Mismatch at (x=1,y=1), expected=0.495845360825, got=0.583974226804, abs_error=0.0881",
+      "mismatch_count": 15
+    },
+    {
+      "dims": [
+        7,
+        9,
+        3
+      ],
+      "threads": 1,
+      "reference_exit": 0,
+      "candidate_exit": 0,
+      "candidate_stderr": "",
+      "pass": false,
+      "message": "Mismatch at (x=1,y=1), expected=0.370845360825, got=0.283276417526, abs_error=0.0876",
+      "mismatch_count": 35
+    },
+    {
+      "dims": [
+        7,
+        9,
+        3
+      ],
+      "threads": 2,
+      "reference_exit": 0,
+      "candidate_exit": 0,
+      "candidate_stderr": "",
+      "pass": false,
+      "message": "Mismatch at (x=1,y=1), expected=0.370845360825, got=0.283276417526, abs_error=0.0876",
+      "mismatch_count": 35
+    },
+    {
+      "dims": [
+        7,
+        9,
+        3
+      ],
+      "threads": 4,
+      "reference_exit": 0,
+      "candidate_exit": 0,
+      "candidate_stderr": "",
+      "pass": false,
+      "message": "Mismatch at (x=1,y=1), expected=0.370845360825, got=0.283276417526, abs_error=0.0876",
+      "mismatch_count": 35
+    },
+    {
+      "dims": [
+        13,
+        15,
+        7
+      ],
+      "threads": 1,
+      "reference_exit": 0,
+      "candidate_exit": 0,
+      "candidate_stderr": "",
+      "pass": false,
+      "message": "Mismatch at (x=1,y=1), expected=0.363032860825, got=0.375358383336, abs_error=0.0123",
+      "mismatch_count": 143
+    },
+    {
+      "dims": [
+        13,
+        15,
+        7
+      ],
+      "threads": 2,
+      "reference_exit": 0,
+      "candidate_exit": 0,
+      "candidate_stderr": "",
+      "pass": false,
+      "message": "Mismatch at (x=1,y=1), expected=0.363032860825, got=0.375358383336, abs_error=0.0123",
+      "mismatch_count": 143
+    },
+    {
+      "dims": [
+        13,
+        15,
+        7
+      ],
+      "threads": 4,
+      "reference_exit": 0,
+      "candidate_exit": 0,
+      "candidate_stderr": "",
+      "pass": false,
+      "message": "Mismatch at (x=1,y=1), expected=0.363032860825, got=0.375358383336, abs_error=0.0123",
+      "mismatch_count": 143
+    },
+    {
+      "dims": [
+        17,
+        23,
+        13
+      ],
+      "threads": 1,
+      "reference_exit": 0,
+      "candidate_exit": 0,
+      "candidate_stderr": "",
+      "pass": false,
+      "message": "Mismatch at (x=1,y=1), expected=0.365835709641, got=0.390739831789, abs_error=0.0249",
+      "mismatch_count": 315
+    },
+    {
+      "dims": [
+        17,
+        23,
+        13
+      ],
+      "threads": 2,
+      "reference_exit": 0,
+      "candidate_exit": 0,
+      "candidate_stderr": "",
+      "pass": false,
+      "message": "Mismatch at (x=1,y=1), expected=0.365835709641, got=0.390739831789, abs_error=0.0249",
+      "mismatch_count": 315
+    },
+    {
+      "dims": [
+        17,
+        23,
+        13
+      ],
+      "threads": 4,
+      "reference_exit": 0,
+      "candidate_exit": 0,
+      "candidate_stderr": "",
+      "pass": false,
+      "message": "Mismatch at (x=1,y=1), expected=0.365835709641, got=0.390739831789, abs_error=0.0249",
+      "mismatch_count": 315
+    },
+    {
+      "dims": [
+        37,
+        29,
+        5
+      ],
+      "threads": 1,
+      "reference_exit": 0,
+      "candidate_exit": 0,
+      "candidate_stderr": "",
+      "pass": false,
+      "message": "Mismatch at (x=1,y=1), expected=0.363032860825, got=0.368988442332, abs_error=0.00596",
+      "mismatch_count": 945
+    },
+    {
+      "dims": [
+        37,
+        29,
+        5
+      ],
+      "threads": 2,
+      "reference_exit": 0,
+      "candidate_exit": 0,
+      "candidate_stderr": "",
+      "pass": false,
+      "message": "Mismatch at (x=1,y=1), expected=0.363032860825, got=0.368988442332, abs_error=0.00596",
+      "mismatch_count": 945
+    },
+    {
+      "dims": [
+        37,
+        29,
+        5
+      ],
+      "threads": 4,
+      "reference_exit": 0,
+      "candidate_exit": 0,
+      "candidate_stderr": "",
+      "pass": false,
+      "message": "Mismatch at (x=1,y=1), expected=0.363032860825, got=0.368988442332, abs_error=0.00596",
+      "mismatch_count": 945
+    }
+  ],
+  "candidate_sha256": "87fd5052d93b8db071bc31479942ae15c866a84971921ae3a2b8d3597f85bf2d",
+  "parallel_directive_found": true,
+  "openmp_enabled": true,
+  "status": "FAIL_NUMERICS",
+  "parallel_status": "OPENMP_ACTIVE"
+}

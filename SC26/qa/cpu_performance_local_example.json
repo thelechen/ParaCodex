@@ -1,0 +1,380 @@
+{
+  "status": "MEASURED",
+  "note": "Wall-clock kernel-loop time only, not GPU profiling; CPU hardware/noise strongly influence speedup.",
+  "raw": [
+    {
+      "size": 384,
+      "steps": 35,
+      "threads": 1,
+      "kind": "reference",
+      "repeat": 1,
+      "time_ms": 4.033797,
+      "checksum": 101211.0482482091
+    },
+    {
+      "size": 384,
+      "steps": 35,
+      "threads": 1,
+      "kind": "reference",
+      "repeat": 2,
+      "time_ms": 4.401137,
+      "checksum": 101211.0482482091
+    },
+    {
+      "size": 384,
+      "steps": 35,
+      "threads": 1,
+      "kind": "reference",
+      "repeat": 3,
+      "time_ms": 3.922282,
+      "checksum": 101211.0482482091
+    },
+    {
+      "size": 384,
+      "steps": 35,
+      "threads": 1,
+      "kind": "candidate",
+      "repeat": 1,
+      "time_ms": 4.415738,
+      "checksum": 101211.0482482091
+    },
+    {
+      "size": 384,
+      "steps": 35,
+      "threads": 1,
+      "kind": "candidate",
+      "repeat": 2,
+      "time_ms": 4.113665,
+      "checksum": 101211.0482482091
+    },
+    {
+      "size": 384,
+      "steps": 35,
+      "threads": 1,
+      "kind": "candidate",
+      "repeat": 3,
+      "time_ms": 6.054722,
+      "checksum": 101211.0482482091
+    },
+    {
+      "size": 384,
+      "steps": 35,
+      "threads": 2,
+      "kind": "reference",
+      "repeat": 1,
+      "time_ms": 4.669902,
+      "checksum": 101211.0482482091
+    },
+    {
+      "size": 384,
+      "steps": 35,
+      "threads": 2,
+      "kind": "reference",
+      "repeat": 2,
+      "time_ms": 4.359376,
+      "checksum": 101211.0482482091
+    },
+    {
+      "size": 384,
+      "steps": 35,
+      "threads": 2,
+      "kind": "reference",
+      "repeat": 3,
+      "time_ms": 4.968592,
+      "checksum": 101211.0482482091
+    },
+    {
+      "size": 384,
+      "steps": 35,
+      "threads": 2,
+      "kind": "candidate",
+      "repeat": 1,
+      "time_ms": 4.040477,
+      "checksum": 101211.0482482091
+    },
+    {
+      "size": 384,
+      "steps": 35,
+      "threads": 2,
+      "kind": "candidate",
+      "repeat": 2,
+      "time_ms": 38.154869,
+      "checksum": 101211.0482482091
+    },
+    {
+      "size": 384,
+      "steps": 35,
+      "threads": 2,
+      "kind": "candidate",
+      "repeat": 3,
+      "time_ms": 4.218939,
+      "checksum": 101211.0482482091
+    },
+    {
+      "size": 384,
+      "steps": 35,
+      "threads": 4,
+      "kind": "reference",
+      "repeat": 1,
+      "time_ms": 4.272228,
+      "checksum": 101211.0482482091
+    },
+    {
+      "size": 384,
+      "steps": 35,
+      "threads": 4,
+      "kind": "reference",
+      "repeat": 2,
+      "time_ms": 4.176787,
+      "checksum": 101211.0482482091
+    },
+    {
+      "size": 384,
+      "steps": 35,
+      "threads": 4,
+      "kind": "reference",
+      "repeat": 3,
+      "time_ms": 4.734237,
+      "checksum": 101211.0482482091
+    },
+    {
+      "size": 384,
+      "steps": 35,
+      "threads": 4,
+      "kind": "candidate",
+      "repeat": 1,
+      "time_ms": 7.934538,
+      "checksum": 101211.0482482091
+    },
+    {
+      "size": 384,
+      "steps": 35,
+      "threads": 4,
+      "kind": "candidate",
+      "repeat": 2,
+      "time_ms": 7.609579,
+      "checksum": 101211.0482482091
+    },
+    {
+      "size": 384,
+      "steps": 35,
+      "threads": 4,
+      "kind": "candidate",
+      "repeat": 3,
+      "time_ms": 6.046309,
+      "checksum": 101211.0482482091
+    },
+    {
+      "size": 640,
+      "steps": 50,
+      "threads": 1,
+      "kind": "reference",
+      "repeat": 1,
+      "time_ms": 17.024716,
+      "checksum": 333562.903016072
+    },
+    {
+      "size": 640,
+      "steps": 50,
+      "threads": 1,
+      "kind": "reference",
+      "repeat": 2,
+      "time_ms": 16.93877,
+      "checksum": 333562.903016072
+    },
+    {
+      "size": 640,
+      "steps": 50,
+      "threads": 1,
+      "kind": "reference",
+      "repeat": 3,
+      "time_ms": 16.184489,
+      "checksum": 333562.903016072
+    },
+    {
+      "size": 640,
+      "steps": 50,
+      "threads": 1,
+      "kind": "candidate",
+      "repeat": 1,
+      "time_ms": 16.092925,
+      "checksum": 333562.903016072
+    },
+    {
+      "size": 640,
+      "steps": 50,
+      "threads": 1,
+      "kind": "candidate",
+      "repeat": 2,
+      "time_ms": 17.825013,
+      "checksum": 333562.903016072
+    },
+    {
+      "size": 640,
+      "steps": 50,
+      "threads": 1,
+      "kind": "candidate",
+      "repeat": 3,
+      "time_ms": 18.912344,
+      "checksum": 333562.903016072
+    },
+    {
+      "size": 640,
+      "steps": 50,
+      "threads": 2,
+      "kind": "reference",
+      "repeat": 1,
+      "time_ms": 18.498796,
+      "checksum": 333562.903016072
+    },
+    {
+      "size": 640,
+      "steps": 50,
+      "threads": 2,
+      "kind": "reference",
+      "repeat": 2,
+      "time_ms": 16.803961,
+      "checksum": 333562.903016072
+    },
+    {
+      "size": 640,
+      "steps": 50,
+      "threads": 2,
+      "kind": "reference",
+      "repeat": 3,
+      "time_ms": 19.094282,
+      "checksum": 333562.903016072
+    },
+    {
+      "size": 640,
+      "steps": 50,
+      "threads": 2,
+      "kind": "candidate",
+      "repeat": 1,
+      "time_ms": 20.647338,
+      "checksum": 333562.903016072
+    },
+    {
+      "size": 640,
+      "steps": 50,
+      "threads": 2,
+      "kind": "candidate",
+      "repeat": 2,
+      "time_ms": 17.540525,
+      "checksum": 333562.903016072
+    },
+    {
+      "size": 640,
+      "steps": 50,
+      "threads": 2,
+      "kind": "candidate",
+      "repeat": 3,
+      "time_ms": 17.885212,
+      "checksum": 333562.903016072
+    },
+    {
+      "size": 640,
+      "steps": 50,
+      "threads": 4,
+      "kind": "reference",
+      "repeat": 1,
+      "time_ms": 34.643636,
+      "checksum": 333562.903016072
+    },
+    {
+      "size": 640,
+      "steps": 50,
+      "threads": 4,
+      "kind": "reference",
+      "repeat": 2,
+      "time_ms": 21.418372,
+      "checksum": 333562.903016072
+    },
+    {
+      "size": 640,
+      "steps": 50,
+      "threads": 4,
+      "kind": "reference",
+      "repeat": 3,
+      "time_ms": 36.974381,
+      "checksum": 333562.903016072
+    },
+    {
+      "size": 640,
+      "steps": 50,
+      "threads": 4,
+      "kind": "candidate",
+      "repeat": 1,
+      "time_ms": 21.662111,
+      "checksum": 333562.903016072
+    },
+    {
+      "size": 640,
+      "steps": 50,
+      "threads": 4,
+      "kind": "candidate",
+      "repeat": 2,
+      "time_ms": 19.454392,
+      "checksum": 333562.903016072
+    },
+    {
+      "size": 640,
+      "steps": 50,
+      "threads": 4,
+      "kind": "candidate",
+      "repeat": 3,
+      "time_ms": 16.196025,
+      "checksum": 333562.903016072
+    }
+  ],
+  "summary": [
+    {
+      "size": 384,
+      "threads": 1,
+      "baseline_ms": 4.033797,
+      "candidate_ms": 4.415738,
+      "speedup": 0.9135046055721603,
+      "checksum_match": true
+    },
+    {
+      "size": 384,
+      "threads": 2,
+      "baseline_ms": 4.033797,
+      "candidate_ms": 4.218939,
+      "speedup": 0.9561164548717107,
+      "checksum_match": true
+    },
+    {
+      "size": 384,
+      "threads": 4,
+      "baseline_ms": 4.033797,
+      "candidate_ms": 7.609579,
+      "speedup": 0.530094634670328,
+      "checksum_match": true
+    },
+    {
+      "size": 640,
+      "threads": 1,
+      "baseline_ms": 16.93877,
+      "candidate_ms": 17.825013,
+      "speedup": 0.950280933876458,
+      "checksum_match": true
+    },
+    {
+      "size": 640,
+      "threads": 2,
+      "baseline_ms": 16.93877,
+      "candidate_ms": 17.885212,
+      "speedup": 0.9470824276502846,
+      "checksum_match": true
+    },
+    {
+      "size": 640,
+      "threads": 4,
+      "baseline_ms": 16.93877,
+      "candidate_ms": 19.454392,
+      "speedup": 0.8706913071351704,
+      "checksum_match": true
+    }
+  ]
+}

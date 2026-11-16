@@ -1,0 +1,275 @@
+{
+  "attempt": 2,
+  "reference_compile": {
+    "command": [
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/data/SC26_ParaCodex_OpenCode_Addon/tutorial_demo/paracodex_opencode/reference.cpp",
+      "-o",
+      "/mnt/data/SC26_ParaCodex_OpenCode_Addon/tutorial_demo/paracodex_opencode/runs/latest/build/reference"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "timed_out": false,
+    "openmp_enabled": false
+  },
+  "candidate_compile": {
+    "command": [
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "-fopenmp",
+      "/mnt/data/SC26_ParaCodex_OpenCode_Addon/tutorial_demo/paracodex_opencode/work/candidate.cpp",
+      "-o",
+      "/mnt/data/SC26_ParaCodex_OpenCode_Addon/tutorial_demo/paracodex_opencode/runs/latest/build/candidate"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "timed_out": false,
+    "openmp_enabled": true
+  },
+  "checks": [
+    {
+      "dims": [
+        5,
+        7,
+        0
+      ],
+      "threads": 1,
+      "reference_exit": 0,
+      "candidate_exit": 0,
+      "candidate_stderr": "",
+      "pass": true,
+      "message": "All grid elements numerically equivalent"
+    },
+    {
+      "dims": [
+        5,
+        7,
+        0
+      ],
+      "threads": 2,
+      "reference_exit": 0,
+      "candidate_exit": 0,
+      "candidate_stderr": "",
+      "pass": true,
+      "message": "All grid elements numerically equivalent"
+    },
+    {
+      "dims": [
+        5,
+        7,
+        0
+      ],
+      "threads": 4,
+      "reference_exit": 0,
+      "candidate_exit": 0,
+      "candidate_stderr": "",
+      "pass": true,
+      "message": "All grid elements numerically equivalent"
+    },
+    {
+      "dims": [
+        5,
+        7,
+        1
+      ],
+      "threads": 1,
+      "reference_exit": 0,
+      "candidate_exit": 0,
+      "candidate_stderr": "",
+      "pass": true,
+      "message": "All grid elements numerically equivalent"
+    },
+    {
+      "dims": [
+        5,
+        7,
+        1
+      ],
+      "threads": 2,
+      "reference_exit": 0,
+      "candidate_exit": 0,
+      "candidate_stderr": "",
+      "pass": true,
+      "message": "All grid elements numerically equivalent"
+    },
+    {
+      "dims": [
+        5,
+        7,
+        1
+      ],
+      "threads": 4,
+      "reference_exit": 0,
+      "candidate_exit": 0,
+      "candidate_stderr": "",
+      "pass": true,
+      "message": "All grid elements numerically equivalent"
+    },
+    {
+      "dims": [
+        7,
+        9,
+        3
+      ],
+      "threads": 1,
+      "reference_exit": 0,
+      "candidate_exit": 0,
+      "candidate_stderr": "",
+      "pass": true,
+      "message": "All grid elements numerically equivalent"
+    },
+    {
+      "dims": [
+        7,
+        9,
+        3
+      ],
+      "threads": 2,
+      "reference_exit": 0,
+      "candidate_exit": 0,
+      "candidate_stderr": "",
+      "pass": true,
+      "message": "All grid elements numerically equivalent"
+    },
+    {
+      "dims": [
+        7,
+        9,
+        3
+      ],
+      "threads": 4,
+      "reference_exit": 0,
+      "candidate_exit": 0,
+      "candidate_stderr": "",
+      "pass": true,
+      "message": "All grid elements numerically equivalent"
+    },
+    {
+      "dims": [
+        13,
+        15,
+        7
+      ],
+      "threads": 1,
+      "reference_exit": 0,
+      "candidate_exit": 0,
+      "candidate_stderr": "",
+      "pass": true,
+      "message": "All grid elements numerically equivalent"
+    },
+    {
+      "dims": [
+        13,
+        15,
+        7
+      ],
+      "threads": 2,
+      "reference_exit": 0,
+      "candidate_exit": 0,
+      "candidate_stderr": "",
+      "pass": true,
+      "message": "All grid elements numerically equivalent"
+    },
+    {
+      "dims": [
+        13,
+        15,
+        7
+      ],
+      "threads": 4,
+      "reference_exit": 0,
+      "candidate_exit": 0,
+      "candidate_stderr": "",
+      "pass": true,
+      "message": "All grid elements numerically equivalent"
+    },
+    {
+      "dims": [
+        17,
+        23,
+        13
+      ],
+      "threads": 1,
+      "reference_exit": 0,
+      "candidate_exit": 0,
+      "candidate_stderr": "",
+      "pass": true,
+      "message": "All grid elements numerically equivalent"
+    },
+    {
+      "dims": [
+        17,
+        23,
+        13
+      ],
+      "threads": 2,
+      "reference_exit": 0,
+      "candidate_exit": 0,
+      "candidate_stderr": "",
+      "pass": true,
+      "message": "All grid elements numerically equivalent"
+    },
+    {
+      "dims": [
+        17,
+        23,
+        13
+      ],
+      "threads": 4,
+      "reference_exit": 0,
+      "candidate_exit": 0,
+      "candidate_stderr": "",
+      "pass": true,
+      "message": "All grid elements numerically equivalent"
+    },
+    {
+      "dims": [
+        37,
+        29,
+        5
+      ],
+      "threads": 1,
+      "reference_exit": 0,
+      "candidate_exit": 0,
+      "candidate_stderr": "",
+      "pass": true,
+      "message": "All grid elements numerically equivalent"
+    },
+    {
+      "dims": [
+        37,
+        29,
+        5
+      ],
+      "threads": 2,
+      "reference_exit": 0,
+      "candidate_exit": 0,
+      "candidate_stderr": "",
+      "pass": true,
+      "message": "All grid elements numerically equivalent"
+    },
+    {
+      "dims": [
+        37,
+        29,
+        5
+      ],
+      "threads": 4,
+      "reference_exit": 0,
+      "candidate_exit": 0,
+      "candidate_stderr": "",
+      "pass": true,
+      "message": "All grid elements numerically equivalent"
+    }
+  ],
+  "candidate_sha256": "44ba3e72d2cd495a529b0ffc85c0fce5dbf9d772670b5f506759f9aa1c68f564",
+  "parallel_directive_found": true,
+  "openmp_enabled": true,
+  "status": "PASS_NUMERICS",
+  "parallel_status": "OPENMP_ACTIVE"
+}
